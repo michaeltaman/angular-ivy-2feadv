@@ -1,0 +1,21 @@
+<button mat-icon-button [mat-menu-trigger-for]="menu">
+  <mat-icon>menu</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon> fullscreen </mat-icon>
+    <span> full screen </span>
+  </button>
+  <button mat-menu-item>
+      <mat-icon>
+          grading
+      </mat-icon>
+      <span>
+          save table settings
+      </span>
+  </button>
+  <button mat-menu-item>
+      <mat-icon>clear</mat-icon>
+      <span>clear filters</span>
+  </button>
+</mat-menu>
